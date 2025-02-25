@@ -1,0 +1,13 @@
+location               = "East US"
+resource_group_name    = "free-tier-demo-rg"
+vnet_name              = "free-tier-demo-vnet"
+vnet_address_space     = ["10.0.0.0/16"]
+subnet_name            = "default"
+subnet_address_prefixes = ["10.0.1.0/24"]
+nic_name               = "free-tier-demo-nic"
+vm_name                = "free-tier-demo-vm"
+admin_username         = "azureuser"
+admin_password         = "demofreeTier@123"
+kv_name                = "free-tier-demo-keyvault"
+storage_account_name   = "freetierdemostorageacct"
+tenant_id              = "a1daf095-7cbd-4964-bc7d-c5adb91a6cf8"
